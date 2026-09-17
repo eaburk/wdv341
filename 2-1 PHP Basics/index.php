@@ -21,7 +21,18 @@
     echo "<h3>Hello World!</h3>";
 
     $myArray = ['apples', 'oranges', 'grapes'];
+    echo "<h1>for Loop Example:</h1>";
+    for($i = 0; $i < count($myArray); $i++){
+      echo "<p>$myArray[$i]</p>";
+    }
 
+    $x = 0;
+    while($x < 10) {
+      echo "x is $x<br>";
+      $x++;
+    }
+
+    echo "<h1>foreach Loop Example:</h1>";
     foreach($myArray as $value) {
   ?>
     <p>
